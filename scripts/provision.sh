@@ -3,7 +3,6 @@
 which curl docker make ruby || {
   sudo apt-get update
   sudo apt-get install -y curl make ruby
-  sudo usermod -a -G docker ubuntu
   sudo gem install rubyzip
   sudo apt-get clean
 
